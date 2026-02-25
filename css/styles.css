@@ -67,6 +67,7 @@ button:focus {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
+  margin-bottom: 8px;
 }
 
 .visually-hidden {
@@ -83,6 +84,10 @@ button:focus {
 }
 /* HEADER */
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -90,7 +95,8 @@ button:focus {
 
 .navigation {
   display: flex;
-  gap: 76px;
+  /* gap: 76px; */
+  align-items: center;
 }
 
 .menu {
@@ -109,7 +115,7 @@ button:focus {
 }
 
 .logo {
-  margin-left: 2%;
+  margin-right: 76px;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   font-size: 18px;
@@ -172,7 +178,7 @@ button:focus {
 
 .hero-section {
   background-color: #2e2f42;
-  padding: 188px;
+  padding: 188px 0 188px;
 }
 
 .hero-section .container {
@@ -202,6 +208,10 @@ button:focus {
   gap: 24px;
 }
 
+.features-item {
+  width: calc((100% - 72px) / 4);
+}
+
 .features-item-name {
   margin-bottom: 4px;
 }
@@ -214,8 +224,8 @@ button:focus {
 }
 
 .team-thumb {
-  padding: 32px 16px;
-  border-radius: 0 0 4px 4px;
+  padding: 32px 0;
+  border-radius: 0px 0px 4px 4px;
   text-align: center;
 }
 
@@ -275,13 +285,18 @@ button:focus {
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 100px 156px;
+}
+
+.footer .logo {
+display: inline-block;
+margin-bottom: 16px;
 }
 
 .footer .logo span {
