@@ -66,7 +66,6 @@ button:focus {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 72px;
   margin-bottom: 8px;
 }
 
@@ -225,7 +224,6 @@ button:focus {
 
 .team-thumb {
   padding: 32px 0;
-  border-radius: 0px 0px 4px 4px;
   text-align: center;
 }
 
@@ -233,8 +231,13 @@ button:focus {
   background-color: #f4f4fd;
 }
 
+.team-title {
+  margin-bottom: 72px;
+}
+
 .team-item {
   background-color: #fff;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-item-name {
@@ -255,6 +258,10 @@ button:focus {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
+}
+
+.portfolio-title {
+  margin-bottom: 72px;
 }
 
 .cart-item {
@@ -294,7 +301,7 @@ button:focus {
   justify-content: center;
 }
 
-.footer .logo {
+.footer-logo {
 display: inline-block;
 margin-bottom: 16px;
 }
