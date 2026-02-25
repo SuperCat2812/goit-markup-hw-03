@@ -66,7 +66,6 @@ button:focus {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 8px;
 }
 
 .visually-hidden {
@@ -207,6 +206,10 @@ button:focus {
   gap: 24px;
 }
 
+.features-title {
+  margin-bottom: 8px;
+}
+
 .features-item {
   width: calc((100% - 72px) / 4);
 }
@@ -232,7 +235,7 @@ button:focus {
 }
 
 .team-title {
-  margin-bottom: 72px;
+  margin-bottom: 8px;
 }
 
 .team-item {
@@ -301,7 +304,7 @@ button:focus {
   justify-content: center;
 }
 
-.footer-logo {
+.footer-container > a {
 display: inline-block;
 margin-bottom: 16px;
 }
