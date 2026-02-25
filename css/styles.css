@@ -298,7 +298,7 @@ button:focus {
   justify-content: center;
 }
 
-.footer-container > a {
+.footer-container .logo {
   display: inline-block;
 }
 
