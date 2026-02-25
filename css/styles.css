@@ -298,8 +298,11 @@ button:focus {
   justify-content: center;
 }
 
-.footer-logo {
+.footer-container > a {
   display: inline-block;
+}
+
+.footer-logo {
   margin-bottom: 16px;
 }
 
