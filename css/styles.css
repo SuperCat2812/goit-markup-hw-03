@@ -56,7 +56,7 @@ button:focus {
   margin: 0 auto;
 }
 
-.section{
+.section {
   padding: 120px 0;
 }
 
@@ -69,6 +69,18 @@ button:focus {
   margin-bottom: 72px;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /* HEADER */
 
 .header-container {
@@ -93,9 +105,8 @@ button:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-    color: #2e2f42;
+  color: #2e2f42;
 }
-
 
 .logo {
   margin-left: 2%;
@@ -107,7 +118,6 @@ button:focus {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-
 
 .menu-link,
 .contact-link,
@@ -183,7 +193,7 @@ button:focus {
   min-width: 169px;
   height: 56px;
   border: none;
-border-radius: 4px;
+  border-radius: 4px;
 }
 
 /* FEATURE */
@@ -192,19 +202,18 @@ border-radius: 4px;
   gap: 24px;
 }
 
-.features-item-name
-{
+.features-item-name {
   margin-bottom: 4px;
 }
 
 /* TEAM */
 
-.team-list{
+.team-list {
   display: flex;
   gap: 24px;
 }
 
-.team-thumb{
+.team-thumb {
   padding: 32px 16px;
   border-radius: 0 0 4px 4px;
   text-align: center;
@@ -232,21 +241,21 @@ border-radius: 4px;
 
 /* PORTFOLIO */
 
-.cart{
+.cart {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
 }
 
-.cart-item{
-  flex-basis: calc((100% - 48px ) / 3);
+.cart-item {
+  flex-basis: calc((100% - 48px) / 3);
 }
 
-.portfolio-thumb{
-padding: 32px 16px;
-border-bottom: 1px solid #e7e9fc;
-border-left: 1px solid #e7e9fc;
-border-right: 1px solid #e7e9fc;
+.portfolio-thumb {
+  padding: 32px 16px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
 }
 
 .cart-item-name {
@@ -268,13 +277,11 @@ border-right: 1px solid #e7e9fc;
   background-color: #2e2f42;
 }
 
-.footer-container
-{
-display: flex;
-flex-direction: column;
-justify-content: center;
-padding:100px 156px ;
-
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 156px;
 }
 
 .footer .logo span {
@@ -285,5 +292,5 @@ padding:100px 156px ;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
-height: 112px;
+  height: 112px;
 }
