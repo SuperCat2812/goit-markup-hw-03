@@ -300,16 +300,15 @@ button:focus {
 
 .footer-logo {
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer .logo {
- 
   padding: 0;
 }
 
 .footer .logo span {
-  color: #f4f4fd; 
-  display: inline-block;
+  color: #f4f4fd;
 }
 
 .footer-description {
