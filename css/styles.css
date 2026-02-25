@@ -300,10 +300,10 @@ button:focus {
 
 .footer-logo {
   margin-bottom: 16px;
-  display: inline-block;
 }
 
 .footer .logo {
+  display: inline-block;
   padding: 0;
 }
 
