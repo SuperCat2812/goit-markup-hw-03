@@ -123,6 +123,7 @@ button:focus {
   text-transform: uppercase;
   color: #4d5ae5;
   padding: 24px 0;
+    display: inline-block;
 }
 
 .menu-link,
@@ -299,7 +300,7 @@ button:focus {
 }
 
 .footer-logo {
-  display: inline-block;
+  /* display: inline-block; */
   margin-bottom: 16px;
 }
 
@@ -313,3 +314,4 @@ button:focus {
   width: 264px;
   height: 112px;
 }
+.footer-logo { display: inline-block; }
