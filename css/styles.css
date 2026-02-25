@@ -303,12 +303,13 @@ button:focus {
 }
 
 .footer .logo {
-  display: inline-block;
+ 
   padding: 0;
 }
 
 .footer .logo span {
-  color: #f4f4fd;
+  color: #f4f4fd; 
+  display: inline-block;
 }
 
 .footer-description {
