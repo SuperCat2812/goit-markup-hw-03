@@ -302,8 +302,11 @@ button:focus {
   margin-bottom: 16px;
 }
 
-.footer .logo {
+.footer a {
   display: inline-block;
+}
+
+.footer .logo {
   padding: 0;
 }
 
