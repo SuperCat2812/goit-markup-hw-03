@@ -292,7 +292,6 @@ button:focus {
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
-   display: inline-block;
 }
 
 .footer-container {
@@ -302,8 +301,17 @@ button:focus {
 }
 
 .footer-logo {
-
+   display: inline-block;
   margin-bottom: 16px;
+    margin-right: 76px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+  padding: 24px 0;
 }
 
 
@@ -315,5 +323,4 @@ button:focus {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
-  height: 112px;
 }
