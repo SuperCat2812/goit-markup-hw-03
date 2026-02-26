@@ -37,6 +37,7 @@ a {
   line-height: 16px;
   letter-spacing: 4%;
   font-style: normal;
+   display: inline-block;
 }
 
 img {
@@ -300,7 +301,7 @@ button:focus {
 }
 
 .footer-logo {
-  display: inline-block;
+
   margin-bottom: 16px;
 }
 
